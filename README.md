@@ -16,3 +16,8 @@
 
 ### Second step
 <p>OpenMP is used to parallelize the differential equation solving. OpenMP API provides a relaxed-consistency, shared-memory model. In this step, each processor divides the task of executing the 'space loops' into its threads. In this step, each processor divides the task of executing the 'space loops' into its threads. This requires extra attention because the tasks to be parallelized cannot depend on each other. </p>
+<hr/>
+
+## To do
+
+<p>First of all, you need must create a 'results' folder in your own repository. Otherwise, it is possible that you will get a segmentation fault, as the program's results are written to this folder in order to maintain a certain organization.</p>
