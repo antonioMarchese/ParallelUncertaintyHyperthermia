@@ -10,3 +10,7 @@
   <li>Parallelize the execution of the experiments</li>
   <li>Parallelize the resolution of the differential equation</li>
 </ol>
+
+### First step
+<p>In the first stage, MPI is used to parallelize the execution of the 'experiment loops'. In this way, several processes are used, each one of them responsible for a specific number of experiments.</p> 
+<p>This allows the code to be 'dismembered' into several pieces, with tasks being performed concurrently. However, it is necessary to carry out communication between the different processes, which often leads to a decrease in code efficiency.</p>
