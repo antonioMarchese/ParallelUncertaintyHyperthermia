@@ -12,5 +12,7 @@
 </ol>
 
 ### First step
-<p>In the first stage, MPI is used to parallelize the execution of the 'experiment loops'. In this way, several processes are used, each one of them responsible for a specific number of experiments.</p> 
-<p>This allows the code to be 'dismembered' into several pieces, with tasks being performed concurrently. However, it is necessary to carry out communication between the different processes, which often leads to a decrease in code efficiency.</p>
+<p>In the first stage, MPI is used to parallelize the execution of the 'experiment loops'. MPI (Message Passing Interface) manages a parallel computation on a distributed memory system. Thus, several processes are used, each one of them responsible for a specific number of experiments. This allows the code to be 'dismembered' into several pieces, with tasks being performed concurrently. However, it is necessary to carry out communication between the different processes, which often leads to a decrease in code efficiency.</p>
+
+### Second step
+<p>OpenMP is used to parallelize the differential equation solving. OpenMP API provides a relaxed-consistency, shared-memory model. In this step, each processor divides the task of executing the 'space loops' into its threads. In this step, each processor divides the task of executing the 'space loops' into its threads. This requires extra attention because the tasks to be parallelized cannot depend on each other. </p>
