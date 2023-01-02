@@ -30,8 +30,15 @@
 
 ## temp.py
  
-<p>The previous steps will save '.txt' files in 'results' folder. With it, you may use in 'temp.py' to: </p>
+<p>The previous steps will save '.txt' files in 'results' folder. With it, you may use 'temp.py' to: </p>
 <ul>
    <li>Generate heatmaps with <strong>create_heatmap()</strong></li>
    <li>Create graphs analyzing the mean and standard deviation of the temperature in specific points of the tissue with <strong>plot_temp()</strong></li>
 </ul>
+<hr />
+
+<h1>Learn more</h1>
+<p>You can learn more about MPI<a href="https://www.open-mpi.org/"> here</a></p>
+<p>You can learn more about OpenMP<a href="https://www.openmp.org/"> here</a></p>
+   
+
