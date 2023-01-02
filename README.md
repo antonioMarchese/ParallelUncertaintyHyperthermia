@@ -38,7 +38,7 @@
 <hr />
 
 <h1>Learn more</h1>
-<p>You can learn more about MPI<a href="https://www.open-mpi.org/"> here</a></p>
-<p>You can learn more about OpenMP<a href="https://www.openmp.org/"> here</a></p>
+<p>You can learn more about MPI<a href="https://www.open-mpi.org/"> here</a></p>.
+<p>You can learn more about OpenMP<a href="https://www.openmp.org/"> here</a></p>.
    
 
