@@ -26,3 +26,12 @@
 <h4>$ mpiCC -lm -fopenmp -O3 main.cpp -o 'file_name' </h4>
 <h3>Run: </ h3>
 <h4>$ mpirun -np 'number_of_processes' ./'file_name' </h4>
+<hr />
+
+## temp.py
+ 
+<p>The previous steps will save '.txt' files in 'results' folder. With it, you may use in 'temp.py' to: </p>
+<ul>
+   <li>Generate heatmaps with <strong>create_heatmap()</strong></li>
+   <li>Create graphs analyzing the mean and standard deviation of the temperature in specific points of the tissue with <strong>plot_temp()</strong></li>
+</ul>
