@@ -21,3 +21,6 @@
 ## To do
 
 <p>First of all, you need must create a 'results' folder in your own repository. Otherwise, it is possible that you will get a segmentation fault, as the program's results are written to this folder in order to maintain a certain organization.</p>
+<p>Then, all you got to do is (make sure you have both MPI and OpenMP installed in your machine): </p>
+<h4>Compile: mpiCC -lm -fopenmp -O3 main.cpp -o 'file_name' </ h4>
+<h4>Run: mpirun -np 'number_of_processes' ./'file_name' </h4>
