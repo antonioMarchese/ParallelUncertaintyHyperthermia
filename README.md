@@ -20,8 +20,8 @@
 
 ## To do
 
-<p>First of all, you need must create a 'results' folder in your own repository. Otherwise, it is possible that you will get a segmentation fault, as the program's results are written to this folder in order to maintain a certain organization.</p>
-<p>Then, all you got to do is (make sure you have both MPI and OpenMP installed in your machine): </p>
+<p>First of all, make sure you have both MPI and OpenMP installed in your machine. Then, you must create a 'results' folder in your own repository. Otherwise, it is possible that you will get a segmentation fault, as the program's results are written to this folder in order to maintain a certain organization.</p>
+<p>Then, all you got to do is: </p>
 <h3>Compile: </ h3>
 <h4>$ mpiCC -lm -fopenmp -O3 main.cpp -o 'file_name' </h4>
 <h3>Run: </ h3>
